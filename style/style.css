@@ -142,7 +142,7 @@
     background: rgba(82, 195, 3, 0.15);
 }
 
-#social{
+#social {
     height: 735px;
     background-image: linear-gradient(rgb(255, 255, 255, 0.762), rgba(255, 255, 255, 0.762)), url('/assets/social-bg.png');
     background-size: cover;
@@ -153,11 +153,11 @@
 
 }
 
-#social .container .info .title{
+#social .container .info .title {
     text-align: center;
     justify-content: center;
     justify-items: center;
-    
+
 }
 
 #social .sub2 {
@@ -168,7 +168,7 @@
     line-height: 18px;
     letter-spacing: 0%;
     text-align: center;
-
+    margin-bottom: 28px;
 }
 
 #social .sub3 {
@@ -180,4 +180,35 @@
     letter-spacing: 0%;
     text-align: center;
 
+}
+
+#social .container .info .title {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+#social .container {
+    width: 531px;
+    margin: auto;
+}
+
+#social .container .info .follow {
+    position: static;
+    width: 531px;
+    height: 99px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px 30px 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
 }
