@@ -144,7 +144,7 @@
 
 #social{
     height: 735px;
-    background-image: url('/assets/social-bg.png');
+    background-image: linear-gradient(rgb(255, 255, 255, 0.762), rgba(255, 255, 255, 0.762)), url('/assets/social-bg.png');
     background-size: cover;
     background-position: absolute;
     display: flex;
